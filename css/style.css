@@ -1,0 +1,56 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+
+.full-screen {
+  padding: 8rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+h4 {
+  color: #484848;
+  font-size:small;
+}
+
+/* h3,
+b, strong {
+  font-weight: bold;
+} */
+
+
+header {
+  /* margin-top: 70px; */
+}
+
+.sc-1 {
+  background-color: rgb(255, 202, 202);
+}
+.sc-2 {
+  background-color: rgb(154, 250, 162);
+}
+.sc-3 {
+  background-color: rgb(236, 248, 126);
+  
+}
+
+.img-game {
+  width: auto;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 200px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+  color: rgb(73, 72, 72);
+}
+
+.bg-nav {
+  background-color: rgb(224, 212, 41);
+}
