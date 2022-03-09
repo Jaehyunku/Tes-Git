@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap");
 body {
-  background-color: white;
   font-family: "Fredoka", sans-serif;
   color: #333333;
+  background-image: url(../img/bg2.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 100vmax;
@@ -13,9 +13,27 @@ h4 {
   text-transform: uppercase;
 }
 
+.bg-color1 {
+  background-color: white;
+}
+
+.bg-color2 {
+  background-color: #282a35;
+}
+
+.bg-color3 {
+  background-color: #dddddd;
+}
+
+section {
+  background-color: #dddddd;
+}
+
 .custom-nav {
-  padding: 0;
-  background-color: #282A35;
+  padding-bottom: 0;
+  padding-top: 0;
+  background-color: #282a35;
+  padding-top: 2;
 }
 
 .custom-nav .navbar-brand img {
@@ -24,18 +42,53 @@ h4 {
 }
 
 .custom-nav .navbar-brand span {
-  color: #04da04;
+  color: white;
   font-weight: 500;
   font-size: large;
   margin-left: 0.5em;
   text-transform: uppercase;
 }
 
+.custom-nav .navbar-toggler .navbar-toggler-icon {
+  color: white;
+}
+
 .custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
-  color: #04da04;
+  color: #dfdbdb;
   font-weight: 500;
   text-transform: uppercase;
-  margin-left: 2.5em;
-  font-size: large;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link a:active {
+  color: white;
+}
+
+header {
+  background-image: url(../img/bg2.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100vmax;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+header #home {
+  max-width: 100%;
+  height: auto;
+}
+
+header #home .blur {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
 }
 /*# sourceMappingURL=style.css.map */
